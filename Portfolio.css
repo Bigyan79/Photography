@@ -18,6 +18,9 @@
     top: 150%;
 
 }
+    body{
+        background-color: rgb(209, 209, 205);   
+    }
 
 main {
     margin-top: 60px;

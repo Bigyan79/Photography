@@ -33,7 +33,7 @@ body {
 
 .image-side {
   /* display: none; */
-  background-image: url('.img/signin.jpg');
+  background-image: url('img/signin.jpg');
   background-size: cover;
   background-position: center;
 }
