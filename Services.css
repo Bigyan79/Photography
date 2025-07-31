@@ -41,12 +41,19 @@ body {
 } */
 
 .logo {
-    background: linear-gradient(120deg, #d44387, #6acfdd);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: larger;
-}
+    /* background: linear-gradient(120deg, #d44387, #6acfdd); */
+    /* background: linear-gradient(120deg, #ffffff, #ffdd57); */
+    /* background: linear-gradient(120deg, #1e1e1e, #4e4e4e); /* Dark gray to medium gray / */
+    background: linear-gradient(120deg, #2c3e50, #4b6cb7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+     font-size: larger;
+    /* background-clip: text;
+    font-size: larger; */
+} 
 
 .navlinks a {
     text-decoration: none;
@@ -60,7 +67,7 @@ body {
     align-items: center;
     /* background-color: #111; */
     /* background: linear-gradient(120deg, #d44387, #6acfdd); */
-    background: rgba(2, 2, 2, 0.3);
+    background: rgba(255, 255, 255, 0.06);
     padding: 10px 20px;
     flex-direction: row;
     font-size: 20px;
@@ -112,7 +119,7 @@ body {
 }
 
 .card-service {
-  background: rgba(231, 227, 227, 0.9);
+  background: ivory;
   padding: 25px 20px;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
