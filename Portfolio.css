@@ -19,7 +19,7 @@
 
 }
 
-main {
+.portfolio-container {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -47,4 +47,20 @@ main {
 .image_grid img:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.filters {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.filters button {
+    padding: 10px 30px;
+    outline: none;
+    border: 3px solid purple;
+    background: transparent;
+    cursor: pointer;
 }
