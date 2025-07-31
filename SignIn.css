@@ -83,7 +83,7 @@ body {
 
 .form-group input:focus+label,
 .form-group input:not(:placeholder-shown)+label {
-  top: 0.25rem;
+  top: -0.75rem;
   font-size: 0.75rem;
   color: #3b82f6;
 }
