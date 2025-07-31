@@ -36,7 +36,14 @@ main {
     gap: 15px;
 }
 
-.image_grid img {
+.image_grid .img-wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* important for zoom effect */
+    border-radius: 10px;
+}
+
+.image_grid .img-wrapper img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -44,7 +51,24 @@ main {
     transition: all 200ms ease-in-out;
 }
 
-.image_grid img:hover {
+.image_grid .img-wrapper img:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.filters {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.filters button {
+    padding: 10px 30px;
+    outline: none;
+    border: 3px solid purple;
+    background: transparent;
+    cursor: pointer;
 }
