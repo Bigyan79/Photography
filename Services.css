@@ -41,47 +41,41 @@ body {
 } */
 
 .logo {
-    /* background: linear-gradient(120deg, #d44387, #6acfdd); */
-    /* background: linear-gradient(120deg, #ffffff, #ffdd57); */
-    /* background: linear-gradient(120deg, #1e1e1e, #4e4e4e); /* Dark gray to medium gray / */
-    background: linear-gradient(120deg, #2c3e50, #4b6cb7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-     font-size: larger;
-    /* background-clip: text;
-    font-size: larger; */
-} 
+  height: 100%;
+}
+
+.logo svg {
+  width: 100%;
+  height: 100%;
+}
 
 .navlinks a {
-    text-decoration: none;
-    margin: 12px;
-    color: white;
+  text-decoration: none;
+  margin: 12px;
+  color: white;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: #111; */
-    /* background: linear-gradient(120deg, #d44387, #6acfdd); */
-    background: rgba(255, 255, 255, 0.06);
-    padding: 10px 20px;
-    flex-direction: row;
-    font-size: 20px;
-    color: white;
-    height: 65px;
-    position: fixed;
-    width: -webkit-fill-available;
-    top: 0;
-    /* background: transparent; */
-    /* filter: blur(); */
-    /* background: rgba(255, 255, 255, 0.06); */
-    backdrop-filter: blur(10px);
-    z-index: 999;
-    font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #111; */
+  /* background: linear-gradient(120deg, #d44387, #6acfdd); */
+  background: rgba(255, 255, 255, 0.06);
+  padding: 10px 20px;
+  flex-direction: row;
+  font-size: 20px;
+  color: white;
+  height: 65px;
+  position: fixed;
+  width: -webkit-fill-available;
+  top: 0;
+  /* background: transparent; */
+  /* filter: blur(); */
+  /* background: rgba(255, 255, 255, 0.06); */
+  backdrop-filter: blur(10px);
+  z-index: 999;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
